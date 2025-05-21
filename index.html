@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Кодинг с Красотой</title>
+<!-- Подключение красивых шрифтов -->
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet" />
+<style>
+  /* Общие стили */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.1&auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Заголовок */
+  h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-align: center;
+  }
+
+  /* Описание */
+  p {
+    font-size: 1.2em;
+    max-width: 700px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    color: #fff;
+    text-align: center;
+  }
+
+  /* Кнопки */
+  a.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #ff7e5f;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  a.button:hover {
+    background-color: #feb47b;
+    transform: scale(1.05);
+  }
+
+  /* Анимация для фона с аниме-иллюстрациями */
+  @keyframes floating {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+
+  /* Аниме-иллюстрации */
+  .anime-img {
+    position: fixed;
+    width: 150px;
+    height: auto;
+    opacity: 0.8;
+    animation: floating 3s ease-in-out infinite;
+  }
+
+  /* Размещение изображений по экрану */
+  .anime-top-left {
+    top: 10px;
+    left: 10px;
+  }
+
+  .anime-top-right {
+    top: 10px;
+    right: 10px;
+  }
+
+  .anime-bottom-left {
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .anime-bottom-right {
+    bottom: 10px;
+    right: 10px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Аниме-иллюстрации -->
+<img src="https://static.kinoafisha.info/upload/articles/175640584254.jpg" class="anime-img anime-top-left" alt="Аниме" />
+<img src="https://static.kinoafisha.info/upload/articles/175640584254.jpg" class="anime-img anime-top-right" alt="Аниме" />
+<img src="https://static.kinoafisha.info/upload/articles/175640584254.jpg" class="anime-img anime-bottom-left" alt="Аниме" />
+<img src="https://static.kinoafisha.info/upload/articles/175640584254.jpg" class="anime-img anime-bottom-right" alt="Аниме" />
+
+<!-- Основной контент -->
+<h1>Добро пожаловать в мир программирования!</h1>
+<p>Kirieshkinapython это компания который пишет на python. Компания поевилась в 2025 году Разробочика Паша И Маским рад вас видить!</p>
+<!-- Кнопка с ссылкой, которую можно изменить -->
+<a href="https://www.google.com/url?q=https%3A%2F%2Fdisk.yandex.ru%2Fd%2FOUZgdCvMXBlYRA&sa=D&sntz=1&usg=AOvVaw0DHQkC39E-SBpi-eyl7S_v" class="button">WEBPTOJPG.exe</a>
+<a href="https://www.google.com/url?q=https%3A%2F%2Fdisk.yandex.ru%2Fd%2FDMNjhKkG_dQetA&sa=D&sntz=1&usg=AOvVaw3Ma3oVrEfb1YjlG_bxTGe-" class="button">Генератор паролей</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScsrOeGuIiCCLFe158Ulnoqa4ltkpY2FhDeATMgpgKO9K6wPg/viewform?usp=header&authuser=0" class="button">Отзывы</a>
+<a href="https://disk.yandex.ru/d/ggWQLdwJEK-V8A" class="button">Гонки</a>
+
+</body>
+</html>
